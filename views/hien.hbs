@@ -1,0 +1,24 @@
+<div class="container">
+
+    <!-- Search box -->
+
+    <!-- Table to display user list -->
+
+    <table class="table" style="margin-top: 20px;">
+        <thead>
+            <tr>
+                <th>Tên</th>
+                <th>Tuổi</th>
+                <th>Địa Chỉ</th>
+            </tr>
+        </thead>
+        <tbody class="">
+            {{#each svModel}}
+            <tr>
+                <td>{{this.Ten}}</td>
+                <td>{{this.Tuoi}}</td>
+                <td>{{this.DiaChi}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
